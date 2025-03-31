@@ -1,0 +1,16 @@
+﻿@page "/admin"
+
+<PageTitle>StudentStats - Date Admin</PageTitle>
+<h3>Datum manager - beheerspagina</h3>
+
+<AuthorizeView Roles="Administrator">
+    <Authorized>
+        <p>Welkom @context.User.Identity?.Name</p>
+    </Authorized>
+    <NotAuthorized>
+        <p>Je hebt geen toegang tot deze pagina.</p>
+    </NotAuthorized>
+</AuthorizeView>
+@code {
+
+}

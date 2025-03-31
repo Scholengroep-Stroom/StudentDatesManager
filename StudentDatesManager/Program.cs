@@ -12,6 +12,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "All",
+                      builder =>
+                      {
+                          builder.AllowAnyHeader();
+                          builder.AllowAnyMethod();
+                          builder.AllowAnyOrigin();
+                      });
+});
+
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -29,7 +40,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
+app.UseCors("All");
 app.MapControllers();
 
 app.Run();

@@ -52,21 +52,21 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[9.0.3, )",
               "noWarn": [
                 "NU1605"
               ]
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[9.0.2, )",
+              "version": "[9.0.3, )",
               "noWarn": [
                 "NU1605"
               ]
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -90,15 +90,15 @@
             },
             "Microsoft.Identity.Web": {
               "target": "Package",
-              "version": "[3.2.2, )"
+              "version": "[3.8.1, )"
             },
             "Microsoft.Identity.Web.DownstreamApi": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.8.1, )"
             },
             "Microsoft.Identity.Web.UI": {
               "target": "Package",
-              "version": "[3.2.2, )"
+              "version": "[3.8.1, )"
             }
           },
           "imports": [
