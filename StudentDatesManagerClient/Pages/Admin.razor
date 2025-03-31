@@ -1,16 +1,110 @@
 ﻿@page "/admin"
 
-<PageTitle>StudentStats - Date Admin</PageTitle>
-<h3>Datum manager - beheerspagina</h3>
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient http
+@inject IAccessTokenProvider AuthorizationService
 
-<AuthorizeView Roles="Administrator">
+<PageTitle>Datums statistieken</PageTitle>
+
+<AuthorizeView>
     <Authorized>
-        <p>Welkom @context.User.Identity?.Name</p>
-    </Authorized>
-    <NotAuthorized>
-        <p>Je hebt geen toegang tot deze pagina.</p>
-    </NotAuthorized>
-</AuthorizeView>
-@code {
+        <h2>Datums wanneer statistieken worden gelogd:</h2>
+        <p>Het verwijderen van datums is enkel mogelijk voor toekomstige datums!</p>
+        <table class="table table-striped table-bordered w-25">
+            <thead>
+                <tr>
+                    <th class="w-75">Date</th>
+                    <th class="w-25">Verwijder datum</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var date in dates)
+                {
+                    <tr>
+                        <td>@FormatDate(date.studentSpecialDate)</td> 
+                        <td>
+                            @if (DateTime.Parse(date.studentSpecialDate) > DateTime.Today)
+                            {
 
+                                <button class="btn btn-danger" @onclick="() => DeleteDate(date.id)">Delete</button>
+                            }
+                            else
+                            {
+                                
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationState { get; set; }
+
+    private List<SpecialDate> dates = new List<SpecialDate>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        await LoadSpecialDates();
+    }
+
+    private async Task LoadSpecialDates()
+    {
+        var state = await AuthenticationState;
+        var accessTokenResult = await AuthorizationService.RequestAccessToken();
+
+        accessTokenResult.TryGetToken(out var token);
+
+        http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token.Value);
+        var response = await http.GetAsync("SpecialDates");
+
+        if (response.IsSuccessStatusCode)
+        {
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            dates = System.Text.Json.JsonSerializer.Deserialize<List<SpecialDate>>(jsonResponse);
+        }
+        else
+        {
+
+        }
+    }
+
+    private async Task DeleteDate(int id)
+    {
+        var state = await AuthenticationState;
+        var accessTokenResult = await AuthorizationService.RequestAccessToken();
+
+        accessTokenResult.TryGetToken(out var token);
+
+        http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token.Value);
+        var response = await http.DeleteAsync($"SpecialDates/{id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            await LoadSpecialDates();
+        }
+        else
+        {
+            Console.WriteLine($"Failed to delete date with ID {id}");
+        }
+    }
+
+    private string FormatDate(string dateString)
+    {
+        DateTime date = DateTime.Parse(dateString);
+        return date.ToString("dd-MM-yyyy");
+    }
+
+
+    public class SpecialDate
+    {
+        public int id { get; set; }
+        public string studentSpecialDate { get; set; }
+        public bool officialDate { get; set; }
+    }
 }

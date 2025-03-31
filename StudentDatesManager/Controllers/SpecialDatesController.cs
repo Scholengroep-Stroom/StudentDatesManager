@@ -1,10 +1,16 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Web.Resource;
 using StudentDatesManager.Models;
+
 
 namespace StudentDatesManager.Controllers
 {
+  //  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     [Route("[controller]")]
+
     public class SpecialDatesController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -24,6 +30,7 @@ namespace StudentDatesManager.Controllers
         }
 
         [HttpPost]
+        [RequiredScopeOrAppPermission(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
         public ActionResult<SpecialDateDto> PostNewDate([FromBody] SpecialDateDto newDateDto)
         {
             if (newDateDto == null || !DateOnly.TryParse(newDateDto.SpecialDate, out var parsedDate))
@@ -51,6 +58,7 @@ namespace StudentDatesManager.Controllers
         }
 
         [HttpDelete("{id}")]
+        [RequiredScopeOrAppPermission(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
         public IActionResult DeleteDate(int id)
         {
             var dateToDelete = _context.SpecialDates.Find(id);

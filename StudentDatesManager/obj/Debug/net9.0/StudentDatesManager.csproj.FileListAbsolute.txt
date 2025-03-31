@@ -22,7 +22,6 @@ E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.Asp
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.Bcl.TimeProvider.dll
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
 E:\source\StudentDatesManager\StudentDatesManager\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -180,3 +179,4 @@ E:\source\StudentDatesManager\StudentDatesManager\obj\Debug\net9.0\StudentDatesM
 E:\source\StudentDatesManager\StudentDatesManager\obj\Debug\net9.0\StudentDatesManager.genruntimeconfig.cache
 E:\source\StudentDatesManager\StudentDatesManager\obj\Debug\net9.0\ref\StudentDatesManager.dll
 E:\source\StudentDatesManager\StudentDatesManager\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\source\StudentDatesManager\StudentDatesManager\obj\Debug\net9.0\StudentDatesManager.sourcelink.json
