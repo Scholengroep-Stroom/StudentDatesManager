@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\StudentDatesManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\controllers\\specialdatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\controllers\\specialdatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\models\\specialdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\models\\specialdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\models\\specialdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\models\\specialdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\migrations\\20250331071643_initalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\migrations\\20250331071643_initalmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpecialDateDto.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDateDto.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Models\\SpecialDateDto.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDateDto.cs",
+              "RelativeToolTip": "StudentDatesManager\\Models\\SpecialDateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:33:39.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250331071643_InitalMigration.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Migrations\\20250331071643_InitalMigration.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Migrations\\20250331071643_InitalMigration.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Migrations\\20250331071643_InitalMigration.cs",
+              "RelativeToolTip": "StudentDatesManager\\Migrations\\20250331071643_InitalMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:29:41.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "StudentDatesManager\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:28:50.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpecialDate.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDate.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Models\\SpecialDate.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDate.cs",
+              "RelativeToolTip": "StudentDatesManager\\Models\\SpecialDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:26:05.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpecialDatesController.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Controllers\\SpecialDatesController.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Controllers\\SpecialDatesController.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Controllers\\SpecialDatesController.cs",
+              "RelativeToolTip": "StudentDatesManager\\Controllers\\SpecialDatesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:53:06.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
