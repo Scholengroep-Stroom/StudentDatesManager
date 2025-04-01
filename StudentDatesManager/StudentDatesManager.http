@@ -1,6 +1,6 @@
-@StudentDatesManager_HostAddress = http://localhost:5077
+@StudentDatesManager_HostAddress = https://localhost:7111
 
-GET {{StudentDatesManager_HostAddress}}/weatherforecast/
+GET {{StudentDatesManager_HostAddress}}/specialdates/
 Accept: application/json
 
 ###

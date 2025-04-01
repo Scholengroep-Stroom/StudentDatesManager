@@ -7,7 +7,7 @@ using StudentDatesManager.Models;
 
 namespace StudentDatesManager.Controllers
 {
-  //  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     [Route("[controller]")]
 
@@ -21,6 +21,7 @@ namespace StudentDatesManager.Controllers
         }
 
         [HttpGet]
+        [RequiredScopeOrAppPermission(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
         public ActionResult<IEnumerable<SpecialDate>> GetAllDates()
         {
             var dates = _context.SpecialDates

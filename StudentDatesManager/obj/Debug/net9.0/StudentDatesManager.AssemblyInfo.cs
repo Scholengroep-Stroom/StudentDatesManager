@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentDatesManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f743dc46bb4a860d6310f3f8ab2afd964c7bc0fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9f12584860e22a9f3b956ea42c3c6a1b84db71e")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentDatesManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentDatesManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
