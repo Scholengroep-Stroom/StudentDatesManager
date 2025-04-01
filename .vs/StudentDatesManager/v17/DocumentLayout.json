@@ -11,52 +11,8 @@
       "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\controllers\\specialdatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\models\\specialdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\models\\specialdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\pages\\authentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\pages\\authentication.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\models\\customaccountfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\models\\customaccountfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\models\\customuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\models\\customuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\layout\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\layout\\logindisplay.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|e:\\source\\studentdatesmanager\\studentdatesmanagerclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAB5FE47-3C88-4F7B-BEEC-C073131A6FB9}|StudentDatesManagerClient\\StudentDatesManagerClient.csproj|solutionrelative:studentdatesmanagerclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|e:\\source\\studentdatesmanager\\studentdatesmanager\\models\\specialdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D21BF4-737A-45E6-A824-B9F5EAFD22E1}|StudentDatesManager\\StudentDatesManager.csproj|solutionrelative:studentdatesmanager\\models\\specialdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,45 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpecialDateDto.cs",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDateDto.cs",
-              "RelativeDocumentMoniker": "StudentDatesManager\\Models\\SpecialDateDto.cs",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDateDto.cs",
-              "RelativeToolTip": "StudentDatesManager\\Models\\SpecialDateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "SpecialDate.cs",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDate.cs",
+              "RelativeDocumentMoniker": "StudentDatesManager\\Models\\SpecialDate.cs",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Models\\SpecialDate.cs",
+              "RelativeToolTip": "StudentDatesManager\\Models\\SpecialDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T15:04:09.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Admin.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Pages\\Admin.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Admin.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\Pages\\Admin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T14:19:39.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManager\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentDatesManager\\appsettings.json",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\appsettings.json",
-              "RelativeToolTip": "StudentDatesManager\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T13:59:59.32Z",
+              "WhenOpened": "2025-04-01T06:44:44.035Z",
               "EditorCaption": ""
             },
             {
@@ -115,139 +45,22 @@
               "RelativeDocumentMoniker": "StudentDatesManager\\Controllers\\SpecialDatesController.cs",
               "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManager\\Controllers\\SpecialDatesController.cs",
               "RelativeToolTip": "StudentDatesManager\\Controllers\\SpecialDatesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0cAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:57:58.753Z",
+              "WhenOpened": "2025-04-01T06:44:16.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Layout\\MainLayout.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Pages\\Admin.razor",
+              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Admin.razor",
+              "RelativeToolTip": "StudentDatesManagerClient\\Pages\\Admin.razor",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAqwJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T12:52:44.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Layout\\NavMenu.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T12:52:45.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomAccountFactory.cs",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Models\\CustomAccountFactory.cs",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Models\\CustomAccountFactory.cs",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Models\\CustomAccountFactory.cs",
-              "RelativeToolTip": "StudentDatesManagerClient\\Models\\CustomAccountFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:51:57.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomUserAccount.cs",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Models\\CustomUserAccount.cs",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Models\\CustomUserAccount.cs",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Models\\CustomUserAccount.cs",
-              "RelativeToolTip": "StudentDatesManagerClient\\Models\\CustomUserAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:50:49.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\App.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\App.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\App.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:29:14.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginDisplay.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\LoginDisplay.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Layout\\LoginDisplay.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Layout\\LoginDisplay.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\Layout\\LoginDisplay.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:29:00.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Authentication.razor",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Authentication.razor",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Pages\\Authentication.razor",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Pages\\Authentication.razor",
-              "RelativeToolTip": "StudentDatesManagerClient\\Pages\\Authentication.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:28:40.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "index.html",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\wwwroot\\index.html",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\wwwroot\\index.html",
-              "RelativeToolTip": "StudentDatesManagerClient\\wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-31T11:28:22.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\wwwroot\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\wwwroot\\appsettings.json",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\wwwroot\\appsettings.json",
-              "RelativeToolTip": "StudentDatesManagerClient\\wwwroot\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T11:28:09.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Program.cs",
-              "RelativeDocumentMoniker": "StudentDatesManagerClient\\Program.cs",
-              "ToolTip": "E:\\source\\StudentDatesManager\\StudentDatesManagerClient\\Program.cs",
-              "RelativeToolTip": "StudentDatesManagerClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:56:41.568Z",
+              "WhenOpened": "2025-03-31T14:19:39.422Z",
               "EditorCaption": ""
             }
           ]
