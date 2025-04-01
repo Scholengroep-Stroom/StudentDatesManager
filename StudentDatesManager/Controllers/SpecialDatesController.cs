@@ -7,6 +7,7 @@ using StudentDatesManager.Models;
 
 namespace StudentDatesManager.Controllers
 {
+   
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     [Route("[controller]")]

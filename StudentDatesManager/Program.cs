@@ -20,35 +20,38 @@ builder.WebHost.ConfigureKestrel(options =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: "All",
-                      builder =>
-                      {
-                          builder.AllowAnyHeader();
-                          builder.AllowAnyMethod();
-                          builder.AllowAnyOrigin();
-                      });
+    options.AddPolicy(MyAllowSpecificOrigins, policy =>
+    {
+        policy.WithOrigins("https://spdates.sgrstroom.be")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials(); 
+    });
 });
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
+
+//app.UseCors(MyAllowSpecificOrigins);
+
+
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
 
+app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors("All");
 app.MapControllers();
 
 app.Run();
